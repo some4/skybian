@@ -12,7 +12,7 @@ BASE_NAME="skywire-${VERSION}-${OS}-${ARCH}"
 FOLDER_NAME="${BASE_NAME}"
 ARCHIVE_NAME="${BASE_NAME}.tar.gz"
 SKYWIRE_URL="https://github.com/SkycoinProject/skywire-mainnet/releases/download/${VERSION}/${ARCHIVE_NAME}"
-BINARY_NAMES="skywire-visor hypervisor"
+BINARY_NAMES="skywire-visor skywire-hypervisor"
 
 rm -f "./${ARCHIVE_NAME}"
 wget -O "$ARCHIVE_NAME" "$SKYWIRE_URL"
